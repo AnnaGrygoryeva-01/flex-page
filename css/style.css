@@ -22,7 +22,7 @@ header {
   align-items: center;
 }
 
-.content-wrap {
+.content-wrapper-1 {
   width: 70%;
   max-width: 850px;
   text-align: center;
@@ -68,7 +68,7 @@ a:hover {
 h2 {
   font-size: 1.7rem;
   font-weight: bold;
-  margin-bottom: 1em;
+  padding: 1em;
 }
 
 .multi-column-text {
@@ -92,7 +92,7 @@ h2 {
   align-items: center;
 }
 
-.content-wrapper {
+.content-wrapper-2 {
   width: 22%;
   height: auto;
   padding: 40px 20px;
@@ -103,13 +103,13 @@ h2 {
   min-height: 300px;
 }
 
-h3 {
+.content-wrapper-2 h3 {
   font-size: 1.3rem;
   font-weight: bold;
   margin-bottom: 2em;
 }
 
-.content-wrapper p {
+.content-wrapper-2 p {
   font-size: 1.1rem;
 }
 
@@ -123,5 +123,55 @@ h3 {
   width: 70%;
   padding: 50px 20px;
   text-align: center;
+  font-size: 1.1rem;
+}
+
+/* SECTION 4 */
+.section-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: white;
+  align-items: stretch;
+}
+
+.content-wrapper-3,
+.content-wrapper-4 {
+  padding: 35px;
+  width: 50%;
+}
+
+.content-wrapper-3 {
+  background-color: #2690d4;
+}
+
+a {
+  border: none;
+}
+
+.content-wrapper-4 {
+  background-color: #333;
+}
+
+.section-4 h3 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 1em;
+}
+
+.section-4 p {
+  font-size: 1.1rem;
+  padding: 1em;
+}
+
+/* FOOTER */
+footer {
+  background-color: black;
+  color: white;
+  padding: 35px;
+  display: flex;
+  justify-content: space-around;
   font-size: 1.1rem;
 }
