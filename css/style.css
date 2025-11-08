@@ -73,8 +73,7 @@ h2 {
 
 .multi-column-text {
   width: 70%;
-  max-width: auto;
-  column-count: 2;
+  column-width: 400px;
   column-gap: 2em;
   font-size: 1.1rem;
   text-align: center;
