@@ -22,7 +22,7 @@ header {
   align-items: center;
 }
 
-.content-wrapper-1 {
+.content-wrapper-header {
   width: 70%;
   max-width: 850px;
   text-align: center;
@@ -92,7 +92,7 @@ h2 {
   align-items: stretch;
 }
 
-.content-wrapper-2 {
+.content-wrapper-section-2 {
   width: 22%;
   height: auto;
   padding: 40px 20px;
@@ -103,13 +103,13 @@ h2 {
   min-height: 300px;
 }
 
-.content-wrapper-2 h3 {
+.content-wrapper-section-2 h3 {
   font-size: 1.3rem;
   font-weight: bold;
   margin-bottom: 2em;
 }
 
-.content-wrapper-2 p {
+.content-wrapper-section-2 p {
   font-size: 1.1rem;
 }
 
