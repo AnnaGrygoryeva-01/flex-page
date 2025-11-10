@@ -5,99 +5,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Document</title>
+    <title>CSS Grid Responsive Site</title>
   </head>
   <body>
-    <header>
-      <div class="content-wrapper-header">
-        <h1>Welcome to Acme Web Solutions</h1>
-        <p class="header-paragraph">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
-          porro quos facilis cum quod eius odio quam perspiciatis odit officia.
-        </p>
-        <a class="header-link" href="#">Read More</a>
-      </div>
-    </header>
-    <main>
-      <div class="section-1">
-        <h2>Web & Application Development</h2>
-        <p class="multi-column-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam hic
-          natus magni animi ipsam quae fugit placeat earum eos illo, at
-          distinctio vel velit deserunt, sunt eum saepe necessitatibus possimus
-          quis ducimus praesentium recusandae aliquam. Quos, placeat recusandae
-          quibusdam. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-        </p>
-      </div>
-
-      <div class="section-2">
-        <div class="content-wrapper-section-2">
-          <h3>Web Development</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-            praesentium illum suscipit maxime ex aut ab libero voluptates optio
-            repellat.
+    <article>
+      <!-- HEADER -->
+      <header>
+        <div class="content-wrapper-header">
+          <h1>Welcome to Acme Web Solutions</h1>
+          <p class="header-paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
+            porro quos facilis cum quod eius odio quam perspiciatis odit
+            officia.
           </p>
+          <a class="header-link" href="#">Read More</a>
         </div>
-
-        <div class="content-wrapper-section-2">
-          <h3>Mobile Applications</h3>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem,
-            quaerat laudantium iusto iste quam distinctio suscipit ea vel
-            reiciendis harum.
+      </header>
+      <main>
+        <!-- SECTION 1 -->
+        <section class="web-app-dev">
+          <h2>Web & Application Development</h2>
+          <p class="multi-column-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam hic
+            natus magni animi ipsam quae fugit placeat earum eos illo, at
+            distinctio vel velit deserunt, sunt eum saepe necessitatibus
+            possimus quis ducimus praesentium recusandae aliquam. Quos, placeat
+            recusandae quibusdam. Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit.
           </p>
-        </div>
+        </section>
+        <!-- SECTION 2 -->
+        <section class="services">
+          <div class="services-items">
+            <h3>Web Development</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque praesentium illum suscipit maxime ex aut ab libero
+              voluptates optio repellat.
+            </p>
+          </div>
 
-        <div class="content-wrapper-section-2">
-          <h3>Tech Marketing</h3>
+          <div class="services-items">
+            <h3>Mobile Applications</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem,
+              quaerat laudantium iusto iste quam distinctio suscipit ea vel
+              reiciendis harum.
+            </p>
+          </div>
+
+          <div class="services-items">
+            <h3>Tech Marketing</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos odit
+              aliquid voluptate nemo placeat reprehenderit eaque nihil facilis
+              veritatis ullam.
+            </p>
+          </div>
+        </section>
+        <!-- SECTION 3 -->
+        <section class="promo-block">
+          <h2>We handle all of your digital needs</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos odit
-            aliquid voluptate nemo placeat reprehenderit eaque nihil facilis
-            veritatis ullam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A eveniet
+            sit aspernatur, officia adipisci reiciendis dolorum inventore
+            suscipit necessitatibus iusto.
           </p>
-        </div>
-      </div>
+        </section>
+        <!-- SECTION 4 -->
+        <section class="more-about">
+          <div class="contacts">
+            <h3>Contact Us</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis
+              ipsa necessitatibus quasi recusandae quod, et minus maiores
+              excepturi minima quia!
+            </p>
+            <a class="mail-link" href="mailto:contact@acmewebsolutions.test">
+              contact@acmewebsolutions.test
+            </a>
+          </div>
 
-      <div class="section-3">
-        <h2>We handle all of your digital needs</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. A eveniet sit
-          aspernatur, officia adipisci reiciendis dolorum inventore suscipit
-          necessitatibus iusto.
-        </p>
-      </div>
-
-      <div class="section-4">
-        <div class="content-wrapper-section-4-A">
-          <h3>Contact Us</h3>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis ipsa
-            necessitatibus quasi recusandae quod, et minus maiores excepturi
-            minima quia!
-          </p>
-          <a class="mail-link" href="mailto:contact@acmewebsolutions.test"
-            >contact@acmewebsolutions.test</a
-          >
-        </div>
-
-        <div class="content-wrapper-section-4-B">
-          <h3>About Our Company</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-            similique molestiae earum ea esse eum corrupti inventore officiis
-            libero facilis dolor temporibus minus dolorum deserunt quos officia,
-            quae maxime quis!
-          </p>
-        </div>
-      </div>
-    </main>
+          <div class="about-us">
+            <h3>About Our Company</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+              similique molestiae earum ea esse eum corrupti inventore officiis
+              libero facilis dolor temporibus minus dolorum deserunt quos
+              officia, quae maxime quis!
+            </p>
+          </div>
+        </section>
+      </main>
+    </article>
+    <!-- FOOTER -->
     <footer>
       <p>Acme Web Solutions</p>
-      <div class="content-wrapper-footer">
+      <div class="project-by">
         <p>Project By</p>
         <a
-          class="Traversy-Media-Link"
+          class="traversy-media-link"
           href="http://traversymedia.com/"
           target="_blank"
           ><span style="color: #2790d5"> Traversy Media</span>
